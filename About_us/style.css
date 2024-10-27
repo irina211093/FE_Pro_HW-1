@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.main-container {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%; 
+    background: #f5f5f5;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-title {
+    display: flex;
+    font-family: "Jost", sans-serif;
+    align-items: center;
+    font-weight: 400;
+    font-size: 33px;
+    text-decoration: none;
+    color: #272727;
+}
+
+.navbar-title span {
+    display: flex;
+    font-family: "Jost", sans-serif;
+    color: #72AEC8;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.navbar-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 460px;
+    width: 470px;
+}
+
+.navbar-elements-text {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #272727;
+    text-transform: uppercase;
+}
+
+.navbar-element {
+    display: flex;
+    color: #72AEC8;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.navbar-icons {
+    display: flex;
+    margin-left: 120px;
+    gap: 20px;
+    cursor: auto;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EDF1F3;
+    width: 1920px;
+    height: 280px;
+}
+
+.about-title {
+    display: flex;
+    font-family: "Jost", sans-serif;
+    font-size: 83px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #272727;
+    background-color: #EDF1F3;
+}
+
+.about-suptitle {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    color: #272727;
+}
+
+.about-suptitle span {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    color: #72AEC8;
+    text-decoration: underline;
+}
+
+.cards {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 77px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    width: 284px;
+    height: 77px;
+    flex-direction: column;
+}
+
+.card-icons {
+    display: flex;
+    position: absolute;
+    width: 25.47px;
+    height: 24.95px;
+}
+
+.card-title {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    font-weight: 300;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 40px;
+}
+
+.card-suptitle {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    color: #3A3A3A;
+    padding-left: 40px;
+    padding-top: 4px;
+}
+
+.main-header {
+    display: flex;
+    width: 1920px;
+    height: 603px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main-header-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header-container {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 120px;
+    width: 590px;
+    height: 323px;
+    flex-direction: column;
+}
+
+.main-header-title {
+    display: flex;
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.main-header-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 138%;
+    letter-spacing: 0.04em;
+    color: #3A3A3A;
+    padding-bottom: 8px;
+}
+
+.main-header-suptext {
+font-family: "Lato", sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 138%;
+letter-spacing: 0.04em;
+color: #3A3A3A;
+}
+
+.main-header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 237px;
+    height: 53px;
+    background-color: #272727;
+    margin-top: 40px;
+}
+
+.main-header-button-text {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-main {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    width: 1920px;
+    height: 282px;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-main-container {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-main-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1012px;
+}
+
+
+.main-main-text {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 138%;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.main-main-stars {
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.main-main-suptext {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 148%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.main-footer {
+    display: flex;
+    width: 1300px;
+    height: 226px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #272727;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-footer-title-text {
+    display: flex;
+    flex-direction: column;
+    width: 462px;
+    height: 66px;
+}
+
+.main-footer-title {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.main-footer-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.08px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.main-footer-email-button {
+    display: flex;
+    flex-direction: row;
+    width: 494px;
+    height: 53px;
+    border: 1px;
+}
+
+.main-footer-email {
+    display: flex;
+    width: 328px;
+    height: 53px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.main-footer-email-text {
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.08px;
+    letter-spacing: 0.03em;
+    padding-left: 30px;
+    color: #3A3A3A;
+
+}
+
+.main-footer-button {
+    display: flex;
+    align-items: center;
+    width: 166px;
+    height: 53px;
+    opacity: 0px;
+    background-color: #72AEC8;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main-footer-button-text {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.72px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.footer-header {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 1300px;
+    height: 308px;
+
+}
+
+.footer-header-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: 0.06em;
+    color: #272727;
+    text-transform: uppercase;
+}
+
+.footer-header-images {
+    display: flex;
+    width: 1300px;
+    height: 244px;
+    justify-content: space-between;
+}
+
+
+.footer-main {
+    display: flex;
+    width: 1300px;
+    height: 185px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-main-column1 {
+    display: flex;
+    width: 339px;
+    height: 165px;
+    flex-direction: column;
+}
+
+.footer-main-column1-title {
+    font-family: "Jost", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 47.69px;
+    color: #272727;
+    width: 143px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.footer-main-column1-title span {
+    font-family: "Jost", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 47.69px;
+    color: #72AEC8;
+}
+
+.footer-main-column1-text {
+    padding-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.08px;
+    letter-spacing: 0.03em;
+    color: #3A3A3A;
+}
+
+.footer-main-column1-icons {
+    display: flex;
+    width: 208px;
+    height: 21px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-main-column2 {
+    display: flex;
+    width: 130px;
+    height: 176px;
+    flex-direction: column;
+}
+
+.footer-main-column2-title {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+.footer-main-column2-menu {
+    display: flex;
+    padding-top: 10px;
+    width: 74px;
+    height: 137px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-main-column2-menu-element {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.72px;
+    letter-spacing: 0.1em;
+    color: #272727;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-main-column2-menu-element span {
+    color: #72AEC8;
+}
+
+.footer-main-column3 {
+    display: flex;
+    width: 171px;
+    height: 176px;
+    flex-direction: column;
+}
+
+.footer-main-column3-title {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.9px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+.footer-main-column3-menu {
+    display: flex;
+    width: 171px;
+    height: 136px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.footer-main-column3-menu-elemet {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.72px;
+    letter-spacing: 0.1em;
+    color: #272727;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.footer-main-column4 {
+    display: flex;
+    width: 242px;
+    height: 185px;
+    flex-direction: column;
+}
+
+.footer-main-column4-title {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.9px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #272727;
+}
+
+.footer-main-column4-text1 {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: 300;
+    line-height: 20.72px;
+    letter-spacing: 0.1em;
+    color: #272727;
+    padding-bottom: 14px;
+}
+
+.footer-main-column4-text1 span {
+    font-family: "Lato", sans-serif;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.08px;
+    letter-spacing: 0.03em;
+}
+
+.footer-main-column4-text2 {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.72px;
+    letter-spacing: 0.1em;
+    color: #272727;
+}
+
+.footer-main-column4-text2 span {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.72px;
+    letter-spacing: 0.1em;
+    color: #272727;
+    text-decoration: underline;
+}
+
+
+.line {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 1920px;
+    height: 1px;
+    background-color: #D0D0D0;
+}
+
+
+.footer-footer-container {
+    display: flex;
+    width: 1920px;
+    height: 69.px;
+    justify-content: center;
+}
+
+.footer-footer {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 24px;
+    justify-content: space-between;
+}
+
+.footer-footer-wesipwith-paymentoptions {
+    display: flex;
+    width: 506px;
+    height: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-footer-weshipwith {
+    display: flex;
+    width: 216px;
+    height: 24px;
+    flex-direction: row;
+}
+
+.footer-footer-weshipwith-title {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.08px;
+    letter-spacing: 0.03em;
+    color: #3A3A3A;
+}
+
+.footer-footer-weshipwith-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.dhl {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.footer-footer-paymentoptions {
+    display: flex;
+    width: 244px;
+    height: 24px;
+    flex-direction: row;
+}
+
+.footer-footer-paymentoptions-title {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    line-height: 22.08px;
+    letter-spacing: 0.03em;
+    color: #3A3A3A;
+    padding-right: 8px;
+}
+
+.footer-footer-paymentoptions-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.mastercard {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.footer-footer-copyright {
+    display: flex;
+    width: 415px;
+    height: 22px;
+    flex-direction: row;
+}
+
+.footer-footer-copyright-title {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22.08px;
+    letter-spacing: 0.02em;
+    color: #3A3A3A;
+}
+
+.footer-footer-copyright-title span {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.08px;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+}
